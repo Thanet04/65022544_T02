@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+    <div style="font-size: large; text-align: center; border:5px solid blue; margin: 25px 600px"  >กรุณากรอกข้อมูล</div>
+
+    <div style="margin-bottom: 20px; text-align: center; ">
+        <label for="Name" style="margin: 11px;" >Name:</label>
+        <input type="text" id="Name" name="Name" onfocus="Focus1(this)" onblur="Blur2(this)">    
+    </div>
+    <div class="SurName" style="text-align: center;">
+        <label for="SurName">SurName:</label>
+        <input type="text" id="SurName" name="SurName" onfocus="Focus1(this)" onblur="Blur2(this)">
+    </div>
+    <p style="text-align: center; border:5px solid blue; margin: 25px 600px">Date of Birth</p>
+    <div style="text-align: center;">
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" bordor>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <label for="dob">Select your language</label>
+        <select id="dob" name="dob">
+            <option value="">-- Select --</option>
+            <option value="C">C</option>
+            <option value="Java">Java</option>
+            <option value="javaScript">javaScript</option>
+            <option value="Python">Python</option>
+        </select>
+    </div>
+    <br>
+    <div style="text-align: center;">
+    <input type="submit" value="Submit">
+    </div>
+    </form>
+    <script src="javascript.js"></script>
+</body>
+</html>
